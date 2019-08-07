@@ -1,0 +1,28 @@
+lib: [
+  "_build/install/default/lib/scale/META"
+  "_build/install/default/lib/scale/dune-package"
+  "_build/install/default/lib/scale/opam"
+  "_build/install/default/lib/scale/scale.a"
+  "_build/install/default/lib/scale/scale.cma"
+  "_build/install/default/lib/scale/scale.cmi"
+  "_build/install/default/lib/scale/scale.cmt"
+  "_build/install/default/lib/scale/scale.cmx"
+  "_build/install/default/lib/scale/scale.cmxa"
+  "_build/install/default/lib/scale/scale.cmxs"
+  "_build/install/default/lib/scale/scale.ml"
+  "_build/install/default/lib/scale/scale_j.cmi"
+  "_build/install/default/lib/scale/scale_j.cmt"
+  "_build/install/default/lib/scale/scale_j.cmti"
+  "_build/install/default/lib/scale/scale_j.cmx"
+  "_build/install/default/lib/scale/scale_j.ml"
+  "_build/install/default/lib/scale/scale_j.mli"
+  "_build/install/default/lib/scale/scale_t.cmi"
+  "_build/install/default/lib/scale/scale_t.cmt"
+  "_build/install/default/lib/scale/scale_t.cmti"
+  "_build/install/default/lib/scale/scale_t.cmx"
+  "_build/install/default/lib/scale/scale_t.ml"
+  "_build/install/default/lib/scale/scale_t.mli"
+]
+bin: [
+  "_build/install/default/bin/scale"
+]

@@ -1,0 +1,11 @@
+opam-version: "2.0"
+version: "1.0"
+maintainer: "fstiffo@sgajo.com"
+authors: ["Francesco Stiffoni"]
+homepage: "https://github.com/fstiffo/scale-ocaml"
+bug-reports: "https://github.com/fstiffo/scale-ocaml/issues"
+dev-repo: "git+https://github.com/fstiffo/scale-ocaml.git"
+license: "Apache-2.0"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]

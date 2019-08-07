@@ -1,0 +1,7 @@
+(executables
+ (names main)
+ (libraries scale))
+
+(install
+ (section bin)
+ (files (main.exe as scale)))

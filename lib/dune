@@ -1,0 +1,17 @@
+; (rule 
+;     (targets    scale_j.ml
+;                 scale_j.mli)
+;     (deps       scale.atd)
+;     (action    (run atdgen -j -j-std %{deps})))
+
+; (rule 
+;     (targets    scale_t.ml
+;                 scale_t.mli)
+;     (deps       scale.atd)
+;     (action    (run atdgen -t %{deps})))
+
+(library
+    (public_name scale)
+    (wrapped false)
+    (modules scale scale_j scale_t)
+    (libraries yojson atdgen))
