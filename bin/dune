@@ -1,6 +1,6 @@
 (executables
  (names main)
- (libraries scale))
+ (libraries scale lambda-term))
 
 (install
  (section bin)

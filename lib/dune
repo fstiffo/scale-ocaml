@@ -9,7 +9,6 @@
 ;                 scale_t.mli)
 ;     (deps       scale.atd)
 ;     (action    (run atdgen -t %{deps})))
-
 (library
     (public_name scale)
     (wrapped false)
